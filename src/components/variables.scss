@@ -1,0 +1,53 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+:root {
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url("//resources.mlstatic.com/search-fonts/proximanova-light-webfont.eot");
+    src: url("//resources.mlstatic.com/search-fonts/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("//resources.mlstatic.com/search-fonts/proximanova-light-webfont.woff") format("woff"), url("//resources.mlstatic.com/search-fonts/proximanova-light-webfont.ttf") format("truetype"), url("//resources.mlstatic.com/search-fonts/proximanova-light-webfont.svg#proxima_novalight") format("svg");
+    font-weight: 300;
+    font-style: normal; }
+  
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url("//resources.mlstatic.com/search-fonts/proximanova-regular-webfont.eot");
+    src: url("//resources.mlstatic.com/search-fonts/proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"), url("//resources.mlstatic.com/search-fonts/proximanova-regular-webfont.woff") format("woff"), url("//resources.mlstatic.com/search-fonts/proximanova-regular-webfont.ttf") format("truetype"), url("//resources.mlstatic.com/search-fonts/proximanova-regular-webfont.svg#proxima_novaregular") format("svg");
+    font-weight: 400;
+    font-style: normal; }
+  
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url("//resources.mlstatic.com/search-fonts/proximanova-medium-webfont.eot");
+    src: url("//resources.mlstatic.com/search-fonts/proximanova-medium-webfont.eot?#iefix") format("embedded-opentype"), url("//resources.mlstatic.com/search-fonts/proximanova-medium-webfont.woff") format("woff"), url("//resources.mlstatic.com/search-fonts/proximanova-medium-webfont.ttf") format("truetype"), url("//resources.mlstatic.com/search-fonts/proximanova-medium-webfont.svg#proxima_novamedium") format("svg");
+    font-weight: 700;
+    font-style: normal; }
+  
+  
+  /*
+   * Typography
+   * ======================================================================== */
+
+  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;
+  /*
+   * Layout
+   * ======================================================================== */
+
+  --max-content-width: 1000px;
+
+  /*
+   * Media queries breakpoints
+   * ======================================================================== */
+
+  --screen-xs-min: 480px;  /* Extra small screen / phone */
+  --screen-sm-min: 768px;  /* Small screen / tablet */
+  --screen-md-min: 992px;  /* Medium screen / desktop */
+  --screen-lg-min: 1200px; /* Large screen / wide desktop */
+}
